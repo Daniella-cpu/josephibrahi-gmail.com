@@ -1,0 +1,599 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+}
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+} */
+svg{
+    color: black;
+}
+header{
+    position:relative;
+    margin: 0 auto;
+    height: 20vh;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+    z-index: 2000;
+}
+.imageContainer{
+    width: 100px;
+    position: relative;
+    margin: 10px;
+    background: none;
+}
+.imageContainer img{
+    margin-top: 10px;
+    border-radius: 25px;
+    width: 90px;
+    height: 90px;
+
+}
+.imageContainer span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: tomato;
+    box-shadow: 0 0 8px tomato;
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+
+}
+.containerHead{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.containerTxt{
+    margin-left: 10px; 
+    font-size: 13px;
+    
+}
+.containerTxt p{
+    color: rgb(177, 172, 172);
+}
+.containerBtn{
+    margin-top: 15px;
+}
+.containerBtn a.btn1{
+    border: 1px solid tomato;
+    background: tomato;
+    color: #ffffff;
+    margin: 10px;
+    padding: 7px 18px;
+    border-radius: 10px;
+
+}
+.containerBtn a.btn2{
+    border: 1px solid #ffffff;
+    background: #fff;
+    color: #000;
+    margin: 10px;
+    padding: 7px 18px;
+    border-radius: 10px;
+}
+
+
+.inputcheck{
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 59vh;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #dddbdb;
+}
+
+form{
+    width: 320px;
+  margin: 0 auto;
+  
+}
+input[type="text"]{
+    border: none;
+    border-radius: 10px;
+    display: block;
+    padding: 15px;
+    width: 60%;
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.angle{
+    padding: 12px;
+    border: 1px solid rgb(203, 199, 199);
+    border-radius: 15px;
+    background: #fff;
+    color: black;
+   
+}
+.checkbox{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.checkbox label{
+    cursor: pointer;
+    display: flex;
+}
+.checkbox input[type="checkbox"]{
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+.checkbox label::before{
+    content: "";
+    width: 1em;
+    height: 1em;
+    margin-right: .5em;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.checkbox input[type="checkbox"]:focus + label::before{
+    box-shadow: 0 0 10px blue;
+}
+.checkbox input[type="checkbox"]:checked + label::before{
+    content: "\002714";
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.checkbox-btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(30, 30, 230);
+    text-align: center;
+}
+
+.checkbox label{
+    color: #c6c6c6;
+}
+.checkbox :checked + label ,
+.checkbox :focus + label{
+    color: #000;
+}
+.checkbox-btn a{
+    color: #fff;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    outline: none;
+    background: #e7e6e6;
+    margin-top: 20px;
+    width: 300px;
+}
+.search a i{
+    position: absolute;
+    right: 2%;
+    margin-top: -8px;
+    background: blue;
+    padding: 10px;
+    border-radius: 14px;
+    color: #fff;
+}
+.container2{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 3px;
+    height: 60vh;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+.versisContainer{
+    position: relative;
+    margin: 0 auto;    
+    width: 300px;    
+    height: 300px;
+}
+.versisContainer img{
+    
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+.versisContainer i{
+    position: absolute;
+    top: -25px;
+    left: -20px;
+    background-color: #fff;
+    color: tomato;
+    padding: 20px;
+    border-radius: 16px;
+
+}
+.vuesaxTxt{
+    width: 190px;
+    margin: 0 auto;
+}
+.vuesImg img{
+    border-radius: 40px;
+    border: 1px solid #fff;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+
+}
+.vuesaxTxt p{
+    color: rgb(193, 184, 184);
+    font-size: 12px;
+}
+.vuesContainer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container3{
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-top: 3px;
+    height: 80vh;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+.container3Img{
+    margin: 0 auto;    
+    width: 300px;    
+    height: 300px;
+    position: relative;
+ 
+}
+ .container3Img img{
+     margin-top: 10px;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+.container3-icons{
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+}
+.container3-icons i{
+    background: #fff;
+    padding: 14px 20px;
+    border-radius: 15px;
+    color: blue;
+    font-size: 20px;
+    margin: 10px;
+}
+.container3-icons span{
+    color: #000;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.text3{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.text3 p{
+    margin-top: 8px;
+    color: rgb(193, 184, 184);
+}
+.textInput{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textInput input{
+    width: 70%;
+}
+.textInput a i{
+    background: #fff;
+    padding: 13px;
+    border-radius: 10px;
+}
+.container4{
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 3px;
+    height: 60vh;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(236, 236, 236);
+}
+.sogeoImage{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+.sogeoImage img{
+    margin-top: 10px;
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+}
+.sogeoText{
+    margin-top: 80px;
+    padding-top: 10px;
+    width: 220px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sogeoText h3{
+   
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.sogeoLink {
+    background-color: blue;
+    color: #fff;
+    margin-top: 10px ;
+    margin: 10px auto;
+    padding: 10px ;
+    width: 200px;
+    border-radius: 17px;
+}
+.sogeoLink a{
+    color: #fff;
+}
+
+.container5{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: px;
+    height: 35vh;
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(236, 236, 236);
+}
+.jsImage{
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.jsImage img{
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 100px;
+    height: 100px;
+}
+.jsIcons i{
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    color: rgb(193, 184, 184);
+}
+.jsText {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: px;
+}
+.jsText p{
+    color: rgb(193, 184, 184);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.container6{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: px;
+    height: 20vh;
+    width: 50px;
+    border-radius: 30px;
+    background-color: rgb(236, 236, 236);
+    
+}
+.videoIcons{
+    width: 25px;
+    height: 0px;
+    margin: 0 auto;
+}
+.videoIcons a i{
+    background: red;
+    color: #fff;
+     margin-top: 10px;
+     border-radius: 15px;
+    padding: 7px;
+    font-size: 17px;
+}
+.video2 a i{
+    background: rgb(238, 191, 38);
+}
+.video3 a i{
+    background: blue;
+}
+
+.container7{
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 3px;
+    height: 10vh;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(236, 236, 236);
+}
+.checkflex{
+    margin-top: 20px;
+    margin:0 auto;
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center
+    
+}
+.checkboxOff{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+.checkboxOff label{
+    position: absolute;
+    left: 45px;
+    font-size: 13px;
+    color: rgb(238, 237, 237);
+    bottom: 15px;
+}
+.checkboxOff input[type="checkbox"]{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    border-radius: 20px;
+
+}
+.checkboxOff input:checked[type="checkbox"]{
+    background: #c6c6c6;
+}
+.checkboxOff input[type="checkbox"]::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    left: 4px;
+    top: 5px;
+    background: #fff;
+}
+
+.checkboxOff :checked[type="checkbox"]::before{
+    left: 40px;
+}
+
+.checkboxOn{
+    position: relative;
+    width: 200px;
+    margin: 0 auto;
+}
+.checkboxOn label{
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    color: #c6c6c6;
+    bottom: 15px;
+}
+.checkboxOn input[type="checkbox"]{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: blue;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    border-radius: 20px;
+
+}
+.checkboxOn input:checked[type="checkbox"]{
+    background: #c6c6c6;
+}
+.checkboxOn input[type="checkbox"]::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    right: 4px;
+    top: 5px;
+    background: #fff;
+}
+.checkboxOn :checked[type="checkbox"]::before {
+    content: "";
+    right: 40px;
+}
+.container8{
+    margin-top: 30px;
+    height: 20vh;
+}
+
+.dropdown{
+    width: 300px;
+    margin: 0 auto;
+}
+.dropdown .fa{
+    margin-left: 105px;
+}
+.dropdown ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.dropdown .active{
+    color: #6e6c6c;
+    background: #c6c6c6;
+    border-top-left-radius: 10px;
+    padding: 10px 10px 15px;
+    margin: 10px
+}
+/* .sub-menu ul li{
+    background: #c6c6c6;
+    padding: 10px;
+    margin: ;
+} */
+.sub-menu{
+    display: none;
+}
+.dropdown ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    width: 200px;
+}
+.dropdown ul li:hover .sub-menu ul{
+    display: block;
+    margin: 10px;
+    background:#f0f0f0 ;
+}
+.dropdown ul li:hover .sub-menu ul li{
+    display: block;
+    margin-right: px;
+    margin-top: 10px;
+    padding: 8px;
+    width: 200px;
+
+}
+.dropdown ul li:hover .sub-menu ul li a{
+    display: block;
+    color: gray;
+    margin-left: px
+}
+ .dropdown ul li:hover .sub-menu ul li a:hover{
+     display: block;
+     color: black;
+ }
+
+
+
+
